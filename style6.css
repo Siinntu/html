@@ -1,0 +1,215 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    line-height: 1.5;
+    font-weight: 400;
+
+}
+nav{
+    box-shadow: 5px 5px 5px rgba(1, 1, 1, 0.05);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    
+    
+    
+}
+.container{
+    max-width: 1200px;
+    margin:0 auto;
+}
+.navigation{
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(3, 3, 117);
+    padding: 10px;
+}
+.navigation h1{
+    font-size: 40px;
+    color: aliceblue;
+}
+ul {
+    display: flex;
+    list-style: none; 
+}
+ul a{
+    padding-right: 30px;
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 17px;
+}
+.navigation ul li{
+    border-bottom: 2px solid transparent;
+    transition: 0.2s ease-in;
+}
+.navigation ul li:hover{
+    border-bottom: 2px solid white;
+    transition: 0.2s ease-in;
+}
+.hero-section{
+    max-width: 1200px;
+    background-image: url(music.jpeg);
+    min-height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: auto;
+    display: grid;
+    place-items: center;
+    text-align: center;
+    color: aliceblue;
+}
+.hero-section .container{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.container h2{
+    font-size: 96px;
+}
+.container h3{
+    font-size: 30px;
+}
+.music-section{
+    max-width: 1200px;
+    background-color: rgb(2, 2, 107);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: auto;
+    display: grid;
+    place-items: center;
+    text-align: center;
+    padding-top: 50px;
+    margin: auto;
+    
+}
+.music-section .container{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+}
+.ipad-iphone{
+    margin-top: -400px;
+    position: relative;
+    top: 400px;
+}
+button{
+    padding: 10px 15px;
+    border: none;
+    transition: 0.2s ease-in-out;
+}
+button:hover{
+    transition: 0.2s ease-in-out;
+    opacity: 0.8;
+}
+.primary-btn{
+    background-color: rgb(107, 5, 5);
+    color: aliceblue;
+}
+.about{
+    max-width: 1200px ;
+    margin: auto;
+    margin-top: 400px;
+    display: grid;
+    place-items: center;
+    text-align: center;
+    padding-top: 50px;
+}
+.container{
+    gap: 30px;
+}
+
+.about h3{
+    font-size: 40px;
+}
+.about h4{
+    font-size: 20px;
+    padding-top: 70px;
+}
+.btn{
+    margin-top: 40px;
+}
+.secondary-btn{
+    padding: 20px 40px;
+    color: aliceblue;
+    background-color: blue;
+}
+.mac-image img{
+    width: 900px;
+}
+.video-section{
+    background-image: url(night\ club.jpeg);
+    max-width: 1200px;
+    min-height: 800px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: auto;
+    display: grid;
+    color: aliceblue;
+    place-items: center;
+    text-align: center;
+}
+.video-section .container{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: -200px;
+}
+.gift-section{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    justify-content: center;
+    margin: 100px 0;
+    gap: 50px;
+    
+}
+.gift-content{
+    display: flex;  
+    flex-direction: column;
+    gap: 30px;
+}
+.tr-btn{
+    background-color: blue;
+
+}
+.footer-upper{
+    background-color: blue;
+    padding: 20px;
+    margin: auto;
+}
+.footer-upper .container{
+    display: flex;
+    color: aliceblue;
+    justify-content: space-between;
+}
+.footer-links ul{
+    display: flex;
+    flex-direction: column;
+}
+.footer-upper h4{
+    padding-bottom: 10px;
+    border-bottom: 2px solid white;
+    margin-bottom: 10px;
+}
+.footer-lower{
+    background-color: blue;
+    
+}
+.footer-lower p{
+    color: aliceblue;
+    place-items: center;
+    text-align: center;
+}
+.gift-section{
+    scroll-margin: 200px;
+}

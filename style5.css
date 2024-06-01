@@ -1,0 +1,165 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+html,body{
+    line-height: 1.4;
+    font-weight: 300;
+    font-family: "Roboto",sans-serif;
+}
+nav{
+    box-shadow: 5px 5px 5px rgba(1, 1, 1, 0.05);
+    position: sticky;
+    top: 0;
+    margin-bottom: 32px;
+    padding: 10px;
+    background-color: white;
+}
+
+
+.navigation {
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.bar_icon{
+    font-size: 25px;
+    float: right;
+}
+
+.hero{
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+    align-items: center;
+}
+
+.log img{
+    border-radius: 50%;
+    width: 360px;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    
+}
+.tag{
+    background-color: green;
+    align-self: flex-start;
+    color: white;
+    padding: 5px 10px;
+
+    
+}
+.text h1{
+    font-size: 72px;
+    line-height: 1.2;
+    font-weight: 400;
+}
+.btn{
+    background-color: #f0dd0d;
+    align-self: flex-start;
+
+}
+.btn button{
+    padding: 10px 20px;
+    background-color: #f0dd0d;
+    border: none;
+    transition: 0.2s ease-in-out;
+    border-radius: 10px;
+}
+.btn button:hover{
+    opacity: 0.8;
+    color: rgb(172, 177, 175);
+}
+.features{
+    
+    margin-top: 80px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-bottom: 30px;
+    
+}
+.feature{
+    display: flex;
+    gap: 20px;
+}
+.feature img{
+    width: 40px;
+    height: 40px;
+}
+.text-conten{
+    width: 200px;
+}
+.text-conten h3{
+    font-size: 15px;
+}
+.feature:hover{
+    transition: 0.2s ease-in-out;
+    box-shadow: 5px 5px 5px rgba(1, 1, 1, 0.05);
+}
+.divider{
+    border: 1px solid gray;
+}
+.tag-1{
+    text-align: center;
+    background-color: green;
+    display: ;
+}
+.menu{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    margin: 50px 0;
+    align-items: center;
+}
+.grid{
+   display: grid; 
+   gap: 10px;
+    grid-template-columns: repeat(3,1fr); 
+    grid-template-rows: repeat(3,1fr);
+}
+
+.tag-1{
+    align-self: center;
+}
+ 
+
+
+
+@media (max-width:786px) {
+    .container{
+        flex-direction: column;
+        display: flex;
+        align-items: center;
+        
+    }
+    .navigation{
+        display: flex;
+        align-items: center;
+    }
+    .log{
+        display: flex;
+        justify-content: center;
+    }
+    .log img{
+        width: 90%;
+    }
+    .text{
+       gap: 10px;
+       padding: 10px;
+    }
+    .text h1{
+        font-size: 32px;
+        line-height: 1.2;
+    }
+}

@@ -1,0 +1,85 @@
+
+html,body{
+     height: 100%;
+     margin: 0;
+     font-size: 16px;
+     font-family: "lato",sans-serif;
+     font-weight: 400px;
+     line-height: 1.8em;
+     color: #666;
+}
+
+.pimg1{
+    background-image: url(magical-spring-forest-scenery-during-morning-breeze-free-photo.webp);
+    min-height: 100%;
+   
+
+}
+.pimg2{
+    min-height: 400px;
+    background-image: url(magical-spring-forest-scenery-during-morning-breeze-free-photo.webp);
+}
+.pimg3{
+    min-height: 400px;
+    background-image: url(images.jpeg);
+}
+.pimg1,.pimg2,.pimg3{
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+.ptext{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+     font-size: 50px;
+     text-align: center;
+     
+     color: aliceblue;
+     letter-spacing: 8px;
+     text-transform: uppercase;
+}
+.textBg{
+    background-color: #666;
+    
+}
+.para h1{
+    text-align: center;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+.para p{
+    margin: auto 100px;
+}
+.ptext1{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+     font-size: 50px;
+     text-align: center;
+     
+     color: aliceblue;
+     letter-spacing: 8px;
+     text-transform: uppercase;
+}
+.textBg1{
+    background-color: #666;
+    
+}
+.ptext2{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+     font-size: 50px;
+     text-align: center;
+     
+     color: aliceblue;
+     letter-spacing: 8px;
+     text-transform: uppercase;
+}
+.textBg2{
+    background-color: #666;
+    
+}

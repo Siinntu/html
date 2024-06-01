@@ -1,0 +1,41 @@
+.container{
+    max-width: 950px;
+    height: 1300px;
+    margin: auto;
+    flex-wrap: wrap;
+    border: 10px solid rgb(4, 4, 125);
+}
+.head{
+     height: 430px; 
+    display: flex;
+    margin: 100px auto;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.head h1{
+    font-size: 40px;
+    text-transform: uppercase;
+    
+    
+}
+.head p{
+    padding: 10px;
+}
+.head img{
+    width: 350px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-left: 100px;
+}
+.body{
+    margin:auto 50px;
+}
+.body h1{
+    font-size: 60px;
+}
+.footer{
+    margin: auto 50px;
+}
+.footer ul{
+    margin: 20px auto;
+}
